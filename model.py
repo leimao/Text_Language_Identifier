@@ -193,8 +193,8 @@ if __name__ == '__main__':
     localtime = time.asctime( time.localtime(time.time()) )
     print ("Local current time :" + localtime)
 
-    dataset = read_data(path = TRAIN_DATA_RAW)
-    labelset = read_label(path = TRAIN_LABEL_RAW)
+    dataset = read_data(filename = TRAIN_DATA_RAW)
+    labelset = read_label(filename = TRAIN_LABEL_RAW)
 
     data_train, data_test, label_train, label_test = train_test_split(dataset, labelset, test_size = 0.1, random_state = 0)
     data_train, data_val, label_train, label_val = train_test_split(data_train, label_train, test_size = 0.1, random_state = 0)
