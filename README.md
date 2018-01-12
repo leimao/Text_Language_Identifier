@@ -27,6 +27,10 @@ The model could not be improved better probably due to the quality of training d
 
 With training data of better quality, I  would expect the performance of the model could be around 85% - 90% with only logistic regression.
 
+## Notes
+
+The training of the model was not optimized to use stochastic gradient descent. The training may consume 5 - 8 GB RAM and take around 30 - 60 minutes to train using 12 cores of CPU.
+
 ## To-Do List
 
 * Map the language label to true language name in English. For example, in the training data, label "ru" should really be "russian".
