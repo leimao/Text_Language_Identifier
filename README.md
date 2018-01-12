@@ -35,3 +35,4 @@ The training of the model was not optimized to use stochastic gradient descent. 
 
 * Map the language label to true language name in English. For example, in the training data, label "ru" should really be "russian".
 * Make a graphical user interface using Tkinter that allows user to paste the utf-8 format text to the model and do the classification.
+* Implement a LSTM-RNN model for fun.
