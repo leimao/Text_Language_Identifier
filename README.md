@@ -23,7 +23,7 @@ This is a text language identifier using multi-class logistic regression algorit
 
 Multi-Layer Perceptron and Naive Bayes does not perform significantly better than logistic regression. 
 
-The model could not be improved better probably due to the quality of training data is low. For example, in the training dataset, "advertisement addressed to members of the House of Representatives ." is labeled as "ru"; "\u2022 Florida \u2022" is labeled as "da". These two examples are found in the first twenty training data in the dataset. 
+The model could not be improved better probably due to the quality of training data is low. For example, in the training dataset, "advertisement addressed to members of the House of Representatives ." is labeled as "ru"; "\u2022 Florida \u2022" is labeled as "da" (\u2022 is •). These two examples are found in the first twenty training data in the dataset. 
 
 With training data of better quality, I  would expect the performance of the model could be around 85% - 90% with only logistic regression.
 
