@@ -1,4 +1,4 @@
-# Text_Language_Identifier
+# Text Language Identifier
 
 Author: Lei Mao
 
