@@ -37,7 +37,11 @@ Type or copy the language in the blank block, and hit Enter.
 
 Multi-Layer Perceptron and Naive Bayes does not perform significantly better than logistic regression. 
 
-The model could not be improved better probably due to the quality of training data is low. For example, in the training dataset, "advertisement addressed to members of the House of Representatives ." is labeled as "ru"; "\u2022 Florida \u2022" is labeled as "da" (\u2022 is •). These two examples are found in the first twenty training data in the dataset. 
+<br />
+
+The model could not be improved better probably due to the quality of training data is low. For example, in the training dataset, "advertisement addressed to members of the House of Representatives ." is labeled as "ru"; "\u2022 Florida \u2022" is labeled as "da" (\u2022 is •). These two examples are found in the first twenty training data in the dataset. This must be one of the reason why the classification accuracy could hardly be improved.
+
+<br />
 
 With training data of better quality, I  would expect the performance of the model could be around 85% - 90% with only logistic regression.
 
