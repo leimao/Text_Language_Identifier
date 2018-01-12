@@ -53,8 +53,8 @@ if __name__ == '__main__':
     with open(label_encoder_filename, 'rb') as file:  
         le = pickle.load(file)
 
-    dataset = read_data(path = TRAIN_DATA_FILENAME)
-    labelset = read_label(path = TRAIN_LABEL_FILENAME)
+    dataset = read_data(filename = TRAIN_DATA_FILENAME)
+    labelset = read_label(filename = TRAIN_LABEL_FILENAME)
     labelset_numeric = le.transform(labelset)
 
     n_gram_list = load_n_grams(filename = 'n_grams.txt')
