@@ -27,7 +27,7 @@ To run the Text Language Identifier in GUI, simply run:
 python text_language_identifier_gui.py
 ```
 
-Type or copy the language in the blank block, and hit Enter.
+Type or paste the text in the blank block, and hit Enter.
 
 ## Demo
 
